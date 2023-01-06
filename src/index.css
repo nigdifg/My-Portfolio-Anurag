@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+@layer base {
+    body{
+        @apply font-[Raleway];
+    }
+    li{
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.content-div:hover{
+    background-image: linear-gradient(
+        to right,
+        rgba(112,157,255,0.8),
+        hsla(242,74%,61%,0.8)
+    )!important;
+}
+.color-content{
+    background: linear-gradient(to bottom, #2dbcebdd -20%, #bbeeeedd 32%);
+}
+.nav-color{
+    background: linear-gradient(to bottom, #1092bdea -20%, rgba(51, 136, 170, 0.273) 32%);
+}
+.text_nav{
+   /* ackground: linear-gradient(to right, crimson,pink,springgreen); b
+    */
+    background-image: linear-gradient(
+        to right,
+        rgb(22, 66, 186),
+        rgba(113, 111, 191, 0.951)
+    )!important;
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+}
+.text_nav:hover{
+    transition: color .2s ease-in-out;
+    color:rgba(0,0,0,0);
+  }
+li{
+    list-style: none;
+    
+  }
+
+
+  .hide_b{
+    /* --tw-text-opacity: 0; */
+    opacity: 5;
+  }
+
+.typed-text{
+    
+    /* display: flex; */
+}
