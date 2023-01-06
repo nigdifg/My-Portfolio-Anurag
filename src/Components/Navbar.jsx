@@ -70,17 +70,17 @@ const handleclick = () => setNav(!nav)
 
 <ul>
   <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077b5]'>
-    <a className='flex justify-between items-center w-full text-grey-300' href="/">
+    <a className='flex justify-between items-center w-full text-grey-300' href="https://www.linkedin.com/in/anurag-91a137203/">
       LinkedIn<FaLinkedin size={30}/>
     </a>
   </li>
   <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#615e5e]'>
-    <a className='flex justify-between items-center w-full text-grey-300' href="/">
+    <a className='flex justify-between items-center w-full text-grey-300' href="https://github.com/nigdifg">
       GitHub <FaGithub size={30}/>
     </a>
   </li>
   <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aa332f]'>
-    <a className='flex justify-between items-center w-full text-grey-300' href="/">
+    <a className='flex justify-between items-center w-full text-grey-300' href="maurya1985anurag@gmail.com">
       Email <HiOutlineMail size={30}/>
     </a>
   </li>
