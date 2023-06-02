@@ -1,3 +1,6 @@
+
+
+
 import React from "react";
 import { data } from "../data/data.js";
 
@@ -11,8 +14,8 @@ const Work = () => {
       name="work"
       className="w-full md:h-screen color-content text-[#0a192f]"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-2">
+      <div className="max-w-[1080px]  [1000px]   py-12 mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="pb-3 glass">
           <p className="text-4xl font-bold inline border-b-4 text-[#0a192f] border-[#6a62d5]">
             Work
           </p>
@@ -20,7 +23,7 @@ const Work = () => {
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid glow2 glass sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Gird Item */}
           {project.map((item, index) => (
             <div

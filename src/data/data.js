@@ -1,51 +1,76 @@
 import Quiz from '../assests/projects/Quiz.jpg'
 import Restorante from '../assests/projects/Restorante.jpg'
 import Readme from '../assests/projects/Readme.jpg'
-import leetcode from '../assests/projects/leetcode.jpg'
-import portfolio from '../assests/projects/portfolio.jpg'
-import coming from '../assests/projects/coming.jpg'
+import leetcode from '../assests/projects/leetcode.png'
+import text from '../assests/projects/text.png'
+import legitlens from '../assests/projects/legitlens.png'
+import Brain_busters from '../assests/projects/brain_busters.png'
+import diary from '../assests/projects/diary.png'
 export const data=[
     {
         id:1,
-        name:"Gethub Profile(README)",
-        image:Readme,
-        github:"https://github.com/nigdifg/nigdifg/blob/main/README.md?plain=1",
-        live:"https://github.com/nigdifg/nigdifg",
+        name:"Brain-Busters",
+        image:Brain_busters,
+        github:"https://github.com/nigdifg/Brain-Busters-ELitmus",
+        live:"https://brain-busters.netlify.app/",
     },
+  
     {
         id:2,
-        name:"Quiz(React App)",
-        image:Quiz,
-        github:"https://github.com/nigdifg/Quiz-app",
-        live:"https://github.com/nigdifg/Quiz-app",
+        name:"My-Diary",
+        image:diary,
+        github:"https://github.com/nigdifg/My-Diary",
+        live:"https://client-bbiz-5ah3f9eun-nigdifg.vercel.app/login",
     },
-    {
-        id:3,
-        name:"Restorante Website",
-        image:Restorante,
-        github:"https://github.com/nigdifg/Restorante-Demo-Website",
-        live:"https://github.com/nigdifg/Restorante-Demo-Website",
-    },
+    // {
+    //     id:2,
+    //     name:"My-Diary",
+    //     image:Readme,
+    //     github:"https://github.com/nigdifg/nigdifg/blob/main/README.md?plain=1",
+    //     live:"https://github.com/nigdifg/nigdifg",
+    // },
+    // {
+    //     id:3,
+    //     name:"LegitLens",
+    //     image:Readme,
+    //     github:"https://github.com/nigdifg/nigdifg/blob/main/README.md?plain=1",
+    //     live:"https://github.com/nigdifg/nigdifg",
+    // },
+    // {
+    //     id:3,
+    //     name:"Gethub Profile(README)",
+    //     image:Readme,
+    //     github:"https://github.com/nigdifg/nigdifg/blob/main/README.md?plain=1",
+    //     live:"https://github.com/nigdifg/nigdifg",
+    // },
+  
     {
         id:4,
         name:"Problem Solving",
         image:leetcode,
         github:"https://github.com/nigdifg/Problem-solving-skill",
-        live:"https://leetcode.com/nigdifg/",
+        live:"https://leetcode.com/anurag_bc/",
+    },
+    {
+        id:3,
+        name:"Restaurants Website",
+        image:Restorante,
+        github:"https://github.com/nigdifg/Tasty--Restaurants",
+        live:"https://tasty-restaurants.vercel.app/",
     },
     {
         id:5,
-        name:"Portfolio",
-        image:portfolio,
-        github:"https://github.com/nigdifg/Project-1-portfolio-",
-        live:"https://github.com/nigdifg/Project-1-portfolio-",
+        name:"Text Analyzer",
+        image:text,
+        github:"https://github.com/nigdifg/Text-Analyzer",
+        live:"https://text-analyzer-anurag.vercel.app/",
     },
     {
         id:6,
-        name:"BlockChain",
-        image:coming,
-        github:"https://github.com/nigdifg/",
-        live:"https://github.com/nigdifg/",
+        name:"LegitLens",
+        image:legitlens,
+        github:"https://github.com/nigdifg/Fake-Product-Identification",
+        live:"https://github.com/nigdifg/Fake-Product-Identification",
     },
 
 

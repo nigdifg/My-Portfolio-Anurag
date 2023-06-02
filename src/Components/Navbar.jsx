@@ -66,26 +66,31 @@ const handleclick = () => setNav(!nav)
   </ul>
 
 {/* social-icons */}
-  <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+  <div className='hidden  lg:flex fixed flex-col top-[35%] left-0'>
 
 <ul>
-  <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077b5]'>
-    <a className='flex justify-between items-center w-full text-grey-300' href="https://www.linkedin.com/in/anurag-91a137203/">
+  <li className='glass w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077b5]'>
+    <a className='flex justify-between items-center w-full text-grey-300' target='_blank' href="https://www.linkedin.com/in/anurag-91a137203/">
       LinkedIn<FaLinkedin size={30}/>
     </a>
   </li>
-  <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#615e5e]'>
-    <a className='flex justify-between items-center w-full text-grey-300' href="https://github.com/nigdifg">
+  <li className='glass  w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#615e5e]'>
+    <a className='flex justify-between items-center w-full text-grey-300' target='_blank' href="https://github.com/nigdifg">
       GitHub <FaGithub size={30}/>
     </a>
   </li>
-  <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aa332f]'>
-    <a className='flex justify-between items-center w-full text-grey-300' href = "mailto:maurya1985anurag@gmail.com">
+  <li className='glass w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aa332f]'>
+  <a href="mailto:maurya1985anurag@gmail.com" target='_blank' className='flex justify-between items-center w-full text-grey-300'>
+    Email <HiOutlineMail size={30}/>
+  </a>
+</li>
+  {/* <li className='glass w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aa332f]'>
+    <a action="maurya1985anurag@gmail.com" className='flex justify-between items-center w-full text-grey-300' href = "mailto:maurya1985anurag@gmail.com">
       Email <HiOutlineMail size={30}/>
     </a>
-  </li>
-  <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4d88ff]'>
-    <a href="./resume.pdf" download className='flex justify-between items-center w-full text-grey-300'>
+  </li> */}
+  <li className='glass  w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4d88ff]'>
+    <a href="https://drive.google.com/file/d/1IJDnvMcNXomfcxFCsX3vfUbuDo76xjTw/view" target='_blank' download className='flex justify-between items-center w-full text-grey-300'>
       Resume<BsFillPersonLinesFill size={30}/>
     </a>
   </li>
