@@ -70,17 +70,17 @@ const handleclick = () => setNav(!nav)
 
 <ul>
   <li className='glass w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077b5]'>
-    <a className='flex justify-between items-center w-full text-grey-300'  href="https://www.linkedin.com/in/anurag-91a137203/ " target="_blank">
+    <a className='flex justify-between items-center w-full text-grey-300'  href="https://www.linkedin.com/in/anurag-91a137203/ "  rel="noopener" target="_blank">
       LinkedIn<FaLinkedin size={30}/>
     </a>
   </li>
   <li className='glass  w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#615e5e]'>
-    <a className='flex justify-between items-center w-full text-grey-300'  href="https://github.com/nigdifg" target="_blank">
+    <a className='flex justify-between items-center w-full text-grey-300'  href="https://github.com/nigdifg"  rel="noopener" target="_blank">
       GitHub <FaGithub size={30}/>
     </a>
   </li>
   <li className='glass w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aa332f]'>
-  <a href="mailto:maurya1985anurag@gmail.com" target="_blank" className='flex justify-between items-center w-full text-grey-300'>
+  <a href="mailto:maurya1985anurag@gmail.com"   rel="noopener" target="_blank" className='flex justify-between items-center w-full text-grey-300'>
     Email <HiOutlineMail size={30}/>
   </a>
 </li>
@@ -90,9 +90,9 @@ const handleclick = () => setNav(!nav)
     </a>
   </li> */}
   <li className='glass  w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4d88ff]'>
-    <a href="https://drive.google.com/file/d/1IJDnvMcNXomfcxFCsX3vfUbuDo76xjTw/view" target="_blank" download className='flex justify-between items-center w-full text-grey-300'>
+    <a href="https://drive.google.com/file/d/1IJDnvMcNXomfcxFCsX3vfUbuDo76xjTw/view" rel="noopener" target="_blank" download className='flex justify-between items-center w-full text-grey-300'>
       Resume<BsFillPersonLinesFill size={30}/>
-    </a>
+    </a> 
   </li>
 </ul>
 </div>
