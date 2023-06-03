@@ -1,6 +1,4 @@
-import Quiz from '../assests/projects/Quiz.jpg'
 import Restorante from '../assests/projects/Restorante.jpg'
-import Readme from '../assests/projects/Readme.jpg'
 import leetcode from '../assests/projects/leetcode.png'
 import text from '../assests/projects/text.png'
 import legitlens from '../assests/projects/legitlens.png'
@@ -22,28 +20,6 @@ export const data=[
         github:"https://github.com/nigdifg/My-Diary",
         live:"https://client-bbiz-5ah3f9eun-nigdifg.vercel.app/login",
     },
-    // {
-    //     id:2,
-    //     name:"My-Diary",
-    //     image:Readme,
-    //     github:"https://github.com/nigdifg/nigdifg/blob/main/README.md?plain=1",
-    //     live:"https://github.com/nigdifg/nigdifg",
-    // },
-    // {
-    //     id:3,
-    //     name:"LegitLens",
-    //     image:Readme,
-    //     github:"https://github.com/nigdifg/nigdifg/blob/main/README.md?plain=1",
-    //     live:"https://github.com/nigdifg/nigdifg",
-    // },
-    // {
-    //     id:3,
-    //     name:"Gethub Profile(README)",
-    //     image:Readme,
-    //     github:"https://github.com/nigdifg/nigdifg/blob/main/README.md?plain=1",
-    //     live:"https://github.com/nigdifg/nigdifg",
-    // },
-  
     {
         id:4,
         name:"Problem Solving",
