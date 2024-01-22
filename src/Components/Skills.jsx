@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade, Zoom } from 'react-reveal';
 
 import HTML from '../assests/html.png';
 import CSS from '../assests/css.png';
@@ -13,21 +14,27 @@ import C_Logo from '../assests/C_Logo.png';
 const Skills = () => {
   return (
     <div name="skills" className='glow2 w-full h-screen color-content text-white'>
+      <Zoom>
       <div className='max-w-4xl mx-auto py-20 px-4'>
+        <Fade bottom cascade>
         <h2 className='text-4xl font-bold mb-4 text-[#0a192f] '>Skills</h2>
         <p className='text-lg mb-8 text-[#0a192f]'>These are the technologies I've worked with</p>
+        </Fade>
         <div className='grid glow2 grid-cols-2 sm:grid-cols-4 glass gap-8'>
-          <SkillCard image={HTML} alt='HTML' title='HTML' />
-          <SkillCard image={CSS} alt='CSS' title='CSS' />
-          <SkillCard image={JavaScript} alt='JavaScript' title='JavaScript' />
-          <SkillCard image={ReactImg} alt='React' title='React' />
-          <SkillCard image={GitHub} alt='GitHub' title='GitHub' />
-          <SkillCard image={Node} alt='Node.js' title='Node.js' />
-          <SkillCard image={Bootstrap} alt='Bootstrap' title='Bootstrap' />
-          <SkillCard image={clang} alt='C++' title='C++' />
-          <SkillCard image={C_Logo} alt='C' title='C' />
+         <Fade bottom >
+          <Zoom><SkillCard image={HTML} alt='HTML' title='HTML' /></Zoom>
+          <Zoom><SkillCard image={CSS} alt='CSS' title='CSS' /></Zoom>
+         <Zoom> <SkillCard image={JavaScript} alt='JavaScript' title='JavaScript' /></Zoom>
+         <Zoom> <SkillCard image={ReactImg} alt='React' title='React' /></Zoom>
+         <Zoom> <SkillCard image={GitHub} alt='GitHub' title='GitHub' /></Zoom>
+         <Zoom> <SkillCard image={Node} alt='Node.js' title='Node.js' /></Zoom>
+          <Zoom><SkillCard image={Bootstrap} alt='Bootstrap' title='Bootstrap' /></Zoom>
+         <Zoom> <SkillCard image={clang} alt='C++' title='C++' /></Zoom>
+         <Zoom> <SkillCard image={C_Logo} alt='C' title='C' /></Zoom>
+          </Fade>
         </div>
       </div>
+    </Zoom>
     </div>
   );
 };
