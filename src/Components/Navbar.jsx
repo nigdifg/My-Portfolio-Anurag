@@ -4,7 +4,6 @@ import {FaBars,FaTimes,FaGithub,FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {Link} from 'react-scroll';
-import { Slide } from 'react-reveal';
 
 const Navbar = () => {
 
@@ -70,28 +69,21 @@ const handleclick = () => setNav(!nav)
   <div className='hidden  lg:flex fixed flex-col top-[35%] left-0'>
 
 <ul>
-  <Slide left>
   <li className='glass w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077b5]'>
     <a className='flex justify-between items-center w-full text-grey-300'  href="https://www.linkedin.com/in/anurag-91a137203/ " >
       LinkedIn<FaLinkedin size={30}/>
     </a>
   </li>
-  </Slide>
-  <Slide left>
   <li className='glass  w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#615e5e]'>
     <a className='flex justify-between items-center w-full text-grey-300'  href="https://github.com/nigdifg" >
       GitHub <FaGithub size={30}/>
     </a>
   </li>
-  </Slide>
-  <Slide left>
   <li className='glass w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aa332f]'>
   <a href="mailto:maurya1985anurag@gmail.com"   className='flex justify-between items-center w-full text-grey-300'>
     Email <HiOutlineMail size={30}/>
   </a>
 </li>
-</Slide>
-<Slide left>
   {/* <li className='glass w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#aa332f]'>
     <a action="maurya1985anurag@gmail.com" className='flex justify-between items-center w-full text-grey-300' href = "mailto:maurya1985anurag@gmail.com">
       Email <HiOutlineMail size={30}/>
@@ -102,7 +94,6 @@ const handleclick = () => setNav(!nav)
       Resume<BsFillPersonLinesFill size={30}/>
     </a> 
   </li>
-  </Slide>
 </ul>
 </div>
 </div>

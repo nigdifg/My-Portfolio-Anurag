@@ -1,6 +1,6 @@
 import React from "react";
 import { data } from "../data/data.js";
-import {Fade,Slide,Zoom} from "react-reveal";
+import {Fade,Slide,Zoom} from "react-awesome-reveal";
 
 const Work = () => {
   const project = data;

@@ -2,7 +2,7 @@ import React from "react";
 import { HiArrowNarrowRight, HiHand } from "react-icons/hi";
 import { Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-awesome-reveal';
 import "../index.css";
 
 const Home = () => {

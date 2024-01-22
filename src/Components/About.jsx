@@ -1,4 +1,4 @@
-import { Fade, Slide, Zoom } from 'react-reveal';
+import { Fade, Slide, Zoom } from 'react-awesome-reveal';
 import React from 'react';
 import Hero from '../assests/Hero.jpeg';
 import "../index.css";
