@@ -6,13 +6,14 @@ import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {Link} from 'react-scroll';
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false);
 
-const[nav,setNav] = useState(false)
-const handleclick = () => setNav(!nav)
+  const handleclick = () => {
+    setNav(!nav);
+  };
 
   return (
-    <div className='fixed text-2xl  w-full h-[80px] flex justify-around items-center nav-color px-4 bg-[#9ec7d7f4] text-[#0a192f]'>
-
+  <div className='fixed text-2xl  w-full h-[80px] flex justify-around items-center nav-color px-4 bg-[#9ec7d7f4] text-[#0a192f]'>
 <div>
   <ul className='hidden md:flex '>
     <li className='text_nav'>
@@ -42,11 +43,12 @@ const handleclick = () => setNav(!nav)
 
 {/* moblie view */}
 
-  <ul className={!nav ? "hidden" :'absolute top-0 left-0 w-full h-screen color-content  hide_b flex flex-col justify-center items-center'}>
+  <ul className={!nav ? "hidden" :'absolute top-0 left-0 w-full h-screen color-content hide-b flex flex-col justify-center items-center'}>
     <li className='py-6 text-4xl'> 
     <Link onClick={handleclick} to="home" smooth={true} duration={500} >
          Home
-        </Link></li>
+    </Link>
+    </li>
     <li className='py-6 text-4xl'>
        <Link onClick={handleclick}  to="about" smooth={true} duration={500} >
          ABOUT
@@ -97,8 +99,6 @@ const handleclick = () => setNav(!nav)
 </ul>
 </div>
 </div>
-
-    
     
   )
 }

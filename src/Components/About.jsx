@@ -4,7 +4,7 @@ import Hero from '../assests/Hero.jpeg';
 import "../index.css";
 const About = () => {
   return (
-    <div name='about' className='color-content w-full h-screen text-[#0a192f] '>
+    <div name='about' className='t color-content flex items-center justify-center w-full md:min-h-screen text-[#0a192f] '>
       <Zoom>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-3'>

@@ -6,7 +6,7 @@ const Work = () => {
   const project = data;
 
   return (
-    <div name="work" className="w-full md:h-screen color-content text-[#0a192f] p-8">
+    <div name="work" className="flex items-center justify-center md:min-h-screen color-content text-[#0a192f] p-8">
       <div className="max-w-[1080px] mx-auto flex flex-col justify-center w-full h-full">
         <Fade down>
         <div className="pb-8">

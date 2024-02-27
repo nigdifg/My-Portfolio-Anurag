@@ -13,7 +13,7 @@ import C_Logo from '../assests/C_Logo.png';
 import tailwind from '../assests/tailwind.png';
 const Skills = () => {
   return (
-    <div name="skills" className='glow2 w-full h-screen color-content text-white'>
+    <div name="skills" className='flex items-center justify-center glow2 w-full md:min-h-screen color-content text-white'>
       <Zoom>
       <div className='max-w-4xl mx-auto py-20 px-4'>
         <Fade bottom cascade>
