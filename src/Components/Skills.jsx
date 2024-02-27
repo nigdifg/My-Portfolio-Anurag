@@ -10,7 +10,7 @@ import clang from '../assests/clang.png';
 import GitHub from '../assests/github.png';
 import Bootstrap from '../assests/Bootstrap.png';
 import C_Logo from '../assests/C_Logo.png';
-
+import tailwind from '../assests/tailwind.png';
 const Skills = () => {
   return (
     <div name="skills" className='glow2 w-full h-screen color-content text-white'>
@@ -23,8 +23,10 @@ const Skills = () => {
         <div className='grid glow2 grid-cols-2 sm:grid-cols-4 glass gap-8'>
          <Fade bottom >
           <Zoom><SkillCard image={HTML} alt='HTML' title='HTML' /></Zoom>
-          <Zoom><SkillCard image={CSS} alt='CSS' title='CSS' /></Zoom>
          <Zoom> <SkillCard image={JavaScript} alt='JavaScript' title='JavaScript' /></Zoom>
+          <Zoom><SkillCard image={CSS} alt='CSS' title='CSS' /></Zoom>
+          <Zoom><SkillCard image={tailwind} alt='tailwind' title='TailwindCSS' /></Zoom>
+
          <Zoom> <SkillCard image={ReactImg} alt='React' title='React' /></Zoom>
          <Zoom> <SkillCard image={GitHub} alt='GitHub' title='GitHub' /></Zoom>
          <Zoom> <SkillCard image={Node} alt='Node.js' title='Node.js' /></Zoom>

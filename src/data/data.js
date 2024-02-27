@@ -6,6 +6,9 @@ import Brain_busters from '../assests/projects/brain_busters.png'
 import diary from '../assests/projects/diary.png'
 import blogvibes from '../assests/projects/blogvibes.png'
 import todo from '../assests/projects/todo.png'    
+import eventvibes from '../assests/projects/eventvibes.png'
+import interview from '../assests/projects/interview.png'
+import track from '../assests/projects/track.png'
 
 export const data=[
     {
@@ -66,6 +69,26 @@ export const data=[
         github:"https://github.com/nigdifg/ToDo---ContextAPI",
         live:"https://todo-anurag.vercel.app/",
     },
-
-
+    {
+        id:9,
+        name:"Event Vibes",
+        image:eventvibes,
+        github:"https://github.com/nigdifg/EventVibes",
+        live:"https://event-vibes.vercel.app/",
+    },
+    
+    {
+        id:10,
+        name:"Confidence Builder",
+        image:interview,
+        github:"https://github.com/nigdifg/ConfidenceBulider",
+        live:"https://confidencebuilder.netlify.app/",
+    },
+    {
+        id:11,
+        name:"Wealth Tracker",
+        image:track,
+        github:"https://github.com/nigdifg/-Finance-Tracker---Github-Copilot-Hackathon",
+        live:"https://wealthtrack.netlify.app/",
+    },
 ]
